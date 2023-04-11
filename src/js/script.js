@@ -11,7 +11,7 @@ function btnCriptografar() {
     }
     mensagem.value = textoEncriptado
     mensagem.style.background="#000"
-    mensagem.style.color="white"
+    mensagem.style.color="#fff"
     mensagem.style.fontSize='25px'
     textoSaida.style.display='none'
     btnCopiar.style.display='block'
@@ -39,7 +39,7 @@ function btnDescriptografar() {
         return textDesencriptado
     }
     mensagem.value = textDesencriptado
-    mensagem.style.color='white'
+    mensagem.style.color='#fff'
     mensagem.style.fontSize='25px'
    
 }

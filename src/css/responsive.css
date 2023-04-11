@@ -118,17 +118,20 @@
         text-align: center;
     }
     .mensagem {
-        background-size: 130px;
+        background-size: 150px;
     }
     .texto-saida {
-        bottom: 130px;
+        bottom: 100px;
+        margin-bottom: 20px;
+        left: 30px;
     }
     
     #btnCopiar {
-        bottom: 110px;
-        left: 30%;
-        width: 200px;
+        width: 80%;
         height: 48px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-left: -95px;
     }
     .footer {
         flex-direction: column;
