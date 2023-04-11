@@ -115,7 +115,6 @@
     }
     .msg-saida {
         width: 100%;
-        text-align: center;
     }
     .mensagem {
         background-size: 150px;
@@ -124,16 +123,14 @@
         bottom: 100px;
         margin-bottom: 20px;
         left: 30px;
-        bottom: 20px;
+        bottom: 50px;
     }
     
     #btnCopiar {
-        width: 80%;
+        width: 75%;
         height: 48px;
         font-size: 18px;
-        margin-bottom: 20px;
-        margin-left: -95px;
-        bottom: 10px;
+        left: 50px;
     }
     .footer {
         flex-direction: column;
