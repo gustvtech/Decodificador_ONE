@@ -2,20 +2,9 @@
 
 ### Decodificador simples que converte todas as vogais de um texto em binário.
 
-Foi utilizado a seguinte lógica de criptografia:
-<br/>
-A -> 01100001
-</br>
-E -> 01100101
-</br>
-I -> 01101001
-</br>
-O -> 01101111
-</br>
-U -> 01110101
-</div>
+### Foi utilizado a seguinte lógica de criptografia:
 
-<div style="display: inline_block" align="center"><br>
+### A -> 01100001, E -> 01100101, I -> 01101001, O -> 01101111, U -> 01110101
 
 ### Para construir o site foi usado as seguintes tecnologias:
  
