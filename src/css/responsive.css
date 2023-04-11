@@ -124,6 +124,7 @@
         bottom: 100px;
         margin-bottom: 20px;
         left: 30px;
+        bottom: 20px;
     }
     
     #btnCopiar {
@@ -132,6 +133,7 @@
         font-size: 18px;
         margin-bottom: 20px;
         margin-left: -95px;
+        bottom: 20px;
     }
     .footer {
         flex-direction: column;
