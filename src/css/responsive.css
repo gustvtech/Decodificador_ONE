@@ -1,0 +1,146 @@
+@media screen and (max-width: 1200px) {
+    .main {
+        display: block;
+    }
+    .mensagem { 
+        margin-top: 140px;
+        width: 100%;
+        height: 500px;
+    }
+    .informacao {
+        display: flex;
+        justify-content: center;
+        margin-right: 35%;
+        font-size: 15px;
+    }
+    .texto-saida {
+        position: absolute;
+        bottom: -270px;
+        margin-left: -25px;
+        width: 100%;
+        text-align: center;
+    }
+    #btnCopiar {
+        position: absolute;
+        bottom: -280px;
+        left: 35%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main {
+        display: inline-block;
+    }
+    .logo h1 {
+        font-size: 18px;
+    }
+    .msg-saida {
+        text-align: center;
+    }
+    .informacao {
+        margin: 10px 17% 20px 0%;
+    }
+    .mensagem {
+        border-radius: 15px;
+        padding: inherit;
+        background-size: 200px;
+        height: 250px;
+    }
+    .encriptar {
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .desencriptar {
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .texto-saida {
+        bottom: -10px;
+    }
+    .texto-saida h3 {
+        font-size: 10px;
+        width: 100%;
+    }
+    .texto-saida p {
+        margin-top: 5px;
+        font-size: 8px;
+        width: 100%;
+    }
+    .redes-sociais i {
+        margin: 15px 30px;
+    }
+    .footer span {
+        font-size: 12px;
+    }
+    #btnCopiar {
+        bottom: 0px;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body {
+        text-align: center;
+    }
+    .main {
+        display: block;
+    }
+    .informacao {
+        margin: 10px 0 20px 5%;
+        font-size: 10px;
+    }
+    .logo a h1 {
+        font-size: 9px;
+    }
+    .input-texto {
+        height: 120px;
+        font-size: 16px;
+       
+    }
+    .input-texto::placeholder {
+        font-size: 14px;
+    }
+    .encriptar {
+        width: 90%;
+        height: 48px;
+        margin-bottom: 10px;
+    }
+    .desencriptar {
+        width: 90%;
+        height: 48px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .msg-saida {
+        width: 100%;
+        text-align: center;
+    }
+    .mensagem {
+        background-size: 130px;
+    }
+    .texto-saida {
+        bottom: 130px;
+    }
+    
+    #btnCopiar {
+        bottom: 110px;
+        left: 30%;
+        width: 200px;
+        height: 48px;
+    }
+    .footer {
+        flex-direction: column;
+        margin-top: -110px;
+        margin-left: 0px;
+    }
+    .footer span {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .redes-sociais {
+        margin-left: 0px;
+    }
+    
+}

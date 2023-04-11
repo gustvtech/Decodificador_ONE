@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Decodificador de Texto </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styel.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <link rel="icon" type="image/png" href="https://images.emojiterra.com/google/android-10/512px/1f513.png"/>
+</head>
+<body>
+
+    <header class="logo">
+        <a href="https://www.alura.com.br/" target="_brank"><img src="src/imagens/logoAlura.png" alt="Logo Alura">
+        </a>
+        <a href="https://github.com/gust-tech/Decodificador_de_Texto_ONE" target="_brank"><h1> Decodificador de Texto (Vogais em Binário) 💻</h1></a>
+        
+    </header>
+
+    <main class="main">
+
+        <section class="secao-texto">
+            <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto"></textarea>
+
+            <div class="informação-card">
+                <h6 class="informacao">
+                    ⚠️ No momento o site só aceita letras minúsculas e sem acento. Divirta-se 😄</h6>
+            </div>
+            <div class="botoes">
+                <button class="encriptar" onclick="btnCriptografar()">
+                    Criptografar 🔒
+                </button>
+    
+                <button class="desencriptar" onclick="btnDescriptografar ()">
+                    Descriptografar 🔓
+                </button>
+            </div>
+
+        </section>
+        
+        <section class="msg-saida">
+            <textarea  class="mensagem" cols="20" rows="8"></textarea> 
+            
+            <button id="btnCopiar" onclick="copiar()">Copiar Resultado ✅</button>
+
+            <div class="texto-saida">
+                <h3>Nenhum input foi inserido 😕</h3>
+                <p>👈 Digite o texto que você quer criptografar ou descriptografar.</p>
+            </div>
+        </section>    
+    </main>
+    <div class="footer">
+        <span>
+            &copy; Gustavo R. (gust-tech)
+        </span>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/gust-tech/" target="_blank" class="footer__icon" ><i class="bx bxl-linkedin"></i></a>
+
+            <a href="https://github.com/gust-tech" target="_blank" class="footer__icon"><i  class="bx bxl-github" ></i></a>
+        
+        </div>
+    </div>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
